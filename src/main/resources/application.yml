@@ -1,0 +1,24 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: xzy
+    password: xzy
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      
+      
+      
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/spring_shiro?useUnicode=true&amp;characterEncoding=UTF-8
+#    username: root
+#    password: root      

@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Xzy
- * @ClassName: Application 
+ * @ClassName: Application
  * @Description: SpringBoot 入口启动类 
  *  SpringBoot 应用两种打包方式 
  *  1. jar 方式运行 （以java -jar  Modular.jar 启动）

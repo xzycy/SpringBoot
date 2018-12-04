@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author Administrator
+ * @author Xzy
  * @ClassName: Application 
  * @Description: SpringBoot 入口启动类 
  *  SpringBoot 应用两种打包方式 
